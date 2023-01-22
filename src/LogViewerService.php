@@ -213,6 +213,6 @@ class LogViewerService
             return 'unit-tests';
         }
 
-        return InstalledVersions::getPrettyVersion('Credizombiesio/log-viewer') ?? 'dev-main';
+        return InstalledVersions::getPrettyVersion('Credizombies/log-viewer') ?? 'dev-main';
     }
 }
