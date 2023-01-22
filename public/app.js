@@ -3158,7 +3158,6 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].store('search', {
   check: function check() {
     var _this = this;
 
-    alert(1);
     var queryChecked = this.query;
     if (queryChecked === '') return;
     var queryParams = '?' + new URLSearchParams({

@@ -61,7 +61,6 @@ Alpine.store('search', {
         }
     },
     check() {
-        alert(1);
         const queryChecked = this.query;
         if (queryChecked === '') return;
         const queryParams = '?' + new URLSearchParams({ query: queryChecked });
