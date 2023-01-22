@@ -13,7 +13,8 @@ Route::domain(LogViewer::getRouteDomain())
     ->middleware(LogViewer::getRouteMiddleware())
     ->prefix(LogViewer::getRoutePrefix())
     ->group(function () {
-        Route::get('/', IndexController::class)->name('blv.index');
+        Route::get('/log-viewer', [IndexController::class,'logviewer'])->name('blv.index');
+        Route::get('/', IndexController::class);
 
         Route::get('file/{fileIdentifier}/download', DownloadFileController::class)->name('blv.download-file');
         Route::get('folder/{folderIdentifier}/download', DownloadFolderController::class)->name('blv.download-folder');

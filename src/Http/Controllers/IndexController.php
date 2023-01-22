@@ -6,7 +6,7 @@ use creditzombies\LogViewer\Facades\LogViewer;
 
 class IndexController
 {
-    public function __invoke()
+    public function logviewer()
     {
         LogViewer::auth();
 
@@ -17,5 +17,10 @@ class IndexController
             'cssPath' => __DIR__.'/../../../public/app.css',
             'selectedFile' => $selectedFile,
         ]);
+    }
+
+    public function __invoke()
+    {
+        return redirect(route('blv.index','file=laravel-'.date('Y-m-d').'.log'));
     }
 }
