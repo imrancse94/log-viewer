@@ -1,5 +1,5 @@
 {
-    "name": "opcodesio/log-viewer",
+    "name": "creditzombies/log-viewer",
     "version": "v1.8.0",
     "description": "Fast and easy-to-use log viewer for your Laravel application",
     "keywords": [
