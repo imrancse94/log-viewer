@@ -10,12 +10,12 @@
         "log viewer",
         "better-log-viewer"
     ],
-    "homepage": "https://github.com/opcodesio/log-viewer",
+    "homepage": "https://github.com/imrancse94/log-viewer",
     "license": "MIT",
     "authors": [
         {
-            "name": "Arunas Skirius",
-            "email": "arukomp@gmail.com",
+            "name": "Imran Hossain",
+            "email": "imrancse94@gmail.com",
             "role": "Developer"
         }
     ],
