@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use Credizombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogFile;
 
 beforeEach(function () {
     $this->file = generateLogFile();

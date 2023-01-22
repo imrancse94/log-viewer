@@ -1,6 +1,6 @@
 <?php
 
-namespace Credizombies\LogViewer\Exceptions;
+namespace Creditzombies\LogViewer\Exceptions;
 
 use Exception;
 

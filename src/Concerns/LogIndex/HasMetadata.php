@@ -1,6 +1,6 @@
 <?php
 
-namespace Credizombies\LogViewer\Concerns\LogIndex;
+namespace Creditzombies\LogViewer\Concerns\LogIndex;
 
 trait HasMetadata
 {

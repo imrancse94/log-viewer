@@ -1,7 +1,7 @@
 <?php
 
-use Credizombies\LogViewer\Facades\Cache;
-use Credizombies\LogViewer\Utils\GenerateCacheKey;
+use Creditzombies\LogViewer\Facades\Cache;
+use Creditzombies\LogViewer\Utils\GenerateCacheKey;
 
 it('starts off with an empty index', function () {
     $logIndex = createLogIndex();

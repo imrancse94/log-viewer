@@ -1,13 +1,13 @@
 <?php
 
-namespace Credizombies\LogViewer\Http\Livewire;
+namespace Creditzombies\LogViewer\Http\Livewire;
 
 use Illuminate\Support\Facades\Gate;
 use Livewire\Component;
-use Credizombies\LogViewer\Facades\LogViewer;
-use Credizombies\LogViewer\LogFile;
-use Credizombies\LogViewer\LogFolderCollection;
-use Credizombies\LogViewer\PreferenceStore;
+use Creditzombies\LogViewer\Facades\LogViewer;
+use Creditzombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogFolderCollection;
+use Creditzombies\LogViewer\PreferenceStore;
 
 class FileList extends Component
 {

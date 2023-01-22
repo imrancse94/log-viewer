@@ -1,9 +1,9 @@
 <?php
 
-namespace Credizombies\LogViewer\Events;
+namespace Creditzombies\LogViewer\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
-use Credizombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogFile;
 
 class LogFileDeleted
 {

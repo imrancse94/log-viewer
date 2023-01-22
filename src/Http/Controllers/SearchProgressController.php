@@ -1,11 +1,11 @@
 <?php
 
-namespace Credizombies\LogViewer\Http\Controllers;
+namespace Creditzombies\LogViewer\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Credizombies\LogViewer\Facades\LogViewer;
-use Credizombies\LogViewer\MultipleLogReader;
+use Creditzombies\LogViewer\Facades\LogViewer;
+use Creditzombies\LogViewer\MultipleLogReader;
 
 class SearchProgressController
 {

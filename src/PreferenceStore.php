@@ -1,6 +1,6 @@
 <?php
 
-namespace Credizombies\LogViewer;
+namespace Creditzombies\LogViewer;
 
 use Carbon\CarbonInterval;
 use Illuminate\Http\Request;

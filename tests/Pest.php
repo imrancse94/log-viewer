@@ -2,9 +2,9 @@
 
 use Carbon\CarbonInterface;
 use Illuminate\Support\Facades\File;
-use Credizombies\LogViewer\LogFile;
-use Credizombies\LogViewer\LogIndex;
-use Credizombies\LogViewer\Tests\TestCase;
+use Creditzombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogIndex;
+use Creditzombies\LogViewer\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 uses()

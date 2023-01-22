@@ -52,7 +52,7 @@
                 <span>Theme: <span x-html="$store.logViewer.theme" class="font-semibold"></span></span>
             </button>
 
-            <a href="https://www.github.com/Credizombies/log-viewer" target="_blank">
+            <a href="https://www.github.com/Creditzombies/log-viewer" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><use href="#icon-question" /></svg>
                 Help
             </a>

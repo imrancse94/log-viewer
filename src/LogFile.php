@@ -1,12 +1,12 @@
 <?php
 
-namespace Credizombies\LogViewer;
+namespace Creditzombies\LogViewer;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Credizombies\LogViewer\Events\LogFileDeleted;
-use Credizombies\LogViewer\Exceptions\InvalidRegularExpression;
-use Credizombies\LogViewer\Utils\Utils;
+use Creditzombies\LogViewer\Events\LogFileDeleted;
+use Creditzombies\LogViewer\Exceptions\InvalidRegularExpression;
+use Creditzombies\LogViewer\Utils\Utils;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFile

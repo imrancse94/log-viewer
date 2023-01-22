@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Credizombies\LogViewer\Facades\LogViewer;
-use Credizombies\LogViewer\Http\Controllers\DownloadFileController;
-use Credizombies\LogViewer\Http\Controllers\DownloadFolderController;
-use Credizombies\LogViewer\Http\Controllers\IndexController;
-use Credizombies\LogViewer\Http\Controllers\IsScanRequiredController;
-use Credizombies\LogViewer\Http\Controllers\ScanFilesController;
-use Credizombies\LogViewer\Http\Controllers\SearchProgressController;
+use Creditzombies\LogViewer\Facades\LogViewer;
+use Creditzombies\LogViewer\Http\Controllers\DownloadFileController;
+use Creditzombies\LogViewer\Http\Controllers\DownloadFolderController;
+use Creditzombies\LogViewer\Http\Controllers\IndexController;
+use Creditzombies\LogViewer\Http\Controllers\IsScanRequiredController;
+use Creditzombies\LogViewer\Http\Controllers\ScanFilesController;
+use Creditzombies\LogViewer\Http\Controllers\SearchProgressController;
 
 Route::domain(LogViewer::getRouteDomain())
     ->middleware(LogViewer::getRouteMiddleware())

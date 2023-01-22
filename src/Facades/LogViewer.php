@@ -1,15 +1,15 @@
 <?php
 
-namespace Credizombies\LogViewer\Facades;
+namespace Creditzombies\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Credizombies\LogViewer\LogFile;
-use Credizombies\LogViewer\LogFileCollection;
-use Credizombies\LogViewer\LogFolder;
-use Credizombies\LogViewer\LogFolderCollection;
+use Creditzombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogFileCollection;
+use Creditzombies\LogViewer\LogFolder;
+use Creditzombies\LogViewer\LogFolderCollection;
 
 /**
- * @see \Credizombies\LogViewer\LogViewerService
+ * @see \Creditzombies\LogViewer\LogViewerService
  *
  * @method static string version()
  * @method static LogFolder[]|LogFolderCollection getFilesGroupedByFolder()

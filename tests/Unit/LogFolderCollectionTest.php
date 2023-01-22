@@ -1,10 +1,10 @@
 <?php
 
-use Credizombies\LogViewer\Facades\LogViewer;
-use Credizombies\LogViewer\LogFile;
-use Credizombies\LogViewer\LogFileCollection;
-use Credizombies\LogViewer\LogFolder;
-use Credizombies\LogViewer\LogFolderCollection;
+use Creditzombies\LogViewer\Facades\LogViewer;
+use Creditzombies\LogViewer\LogFile;
+use Creditzombies\LogViewer\LogFileCollection;
+use Creditzombies\LogViewer\LogFolder;
+use Creditzombies\LogViewer\LogFolderCollection;
 
 test('LogViewer::getFilesInFolders() returns a LogFolderCollection', function () {
     expect(LogViewer::getFilesGroupedByFolder())->toBeInstanceOf(LogFolderCollection::class);

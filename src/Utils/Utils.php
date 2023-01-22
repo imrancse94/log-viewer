@@ -1,9 +1,9 @@
 <?php
 
-namespace Credizombies\LogViewer\Utils;
+namespace Creditzombies\LogViewer\Utils;
 
 use Illuminate\Support\Str;
-use Credizombies\LogViewer\Exceptions\InvalidRegularExpression;
+use Creditzombies\LogViewer\Exceptions\InvalidRegularExpression;
 
 class Utils
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Credizombies\LogViewer\Facades\Cache;
-use Credizombies\LogViewer\Utils\GenerateCacheKey;
+use Creditzombies\LogViewer\Facades\Cache;
+use Creditzombies\LogViewer\Utils\GenerateCacheKey;
 
 it('can set the last-scanned file position', function () {
     $logIndex = createLogIndex();

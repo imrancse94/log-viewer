@@ -1,9 +1,9 @@
 <?php
 
-namespace Credizombies\LogViewer\Http\Controllers;
+namespace Creditzombies\LogViewer\Http\Controllers;
 
 use Illuminate\Support\Facades\Gate;
-use Credizombies\LogViewer\Facades\LogViewer;
+use Creditzombies\LogViewer\Facades\LogViewer;
 
 class DownloadFolderController
 {
