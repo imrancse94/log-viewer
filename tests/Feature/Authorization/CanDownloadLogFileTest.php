@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Gate;
-use Opcodes\LogViewer\LogFile;
+use Credizombies\LogViewer\LogFile;
 use function Pest\Laravel\get;
 
 test('can download every file by default', function () {

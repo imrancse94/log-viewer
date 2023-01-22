@@ -1,12 +1,12 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Utils\Utils;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\Utils\Utils;
 
 class LogReader
 {

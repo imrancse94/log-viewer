@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Exceptions;
+namespace Credizombies\LogViewer\Exceptions;
 
 use Exception;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogIndex;
+namespace Credizombies\LogViewer\Concerns\LogIndex;
 
 use Carbon\CarbonInterface;
-use Opcodes\LogViewer\Level;
+use Credizombies\LogViewer\Level;
 
 trait CanFilterIndex
 {

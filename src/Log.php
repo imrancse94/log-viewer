@@ -1,12 +1,12 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 use Carbon\CarbonInterface;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Utils\Utils;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\Utils\Utils;
 
 class Log
 {

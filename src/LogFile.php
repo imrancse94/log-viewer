@@ -1,12 +1,12 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Events\LogFileDeleted;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
-use Opcodes\LogViewer\Utils\Utils;
+use Credizombies\LogViewer\Events\LogFileDeleted;
+use Credizombies\LogViewer\Exceptions\InvalidRegularExpression;
+use Credizombies\LogViewer\Utils\Utils;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFile

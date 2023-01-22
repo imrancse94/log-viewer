@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 class Direction
 {

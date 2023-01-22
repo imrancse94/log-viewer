@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogFile;
+namespace Credizombies\LogViewer\Concerns\LogFile;
 
 use Carbon\CarbonInterface;
-use Opcodes\LogViewer\Facades\Cache;
-use Opcodes\LogViewer\Utils\GenerateCacheKey;
+use Credizombies\LogViewer\Facades\Cache;
+use Credizombies\LogViewer\Utils\GenerateCacheKey;
 
 trait CanCacheData
 {

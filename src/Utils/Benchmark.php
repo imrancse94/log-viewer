@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Credizombies\LogViewer\Utils;
 
 class Benchmark
 {

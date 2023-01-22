@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\LogFile;
+use Credizombies\LogViewer\LogFile;
 
 test('log file can be instantiated with just a path to the file', function () {
     $path = storage_path('logs/laravel.log');

@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Credizombies\LogViewer\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\MultipleLogReader;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\MultipleLogReader;
 
 class SearchProgressController
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Opcodes\LogViewer\Console\Commands\GenerateDummyLogsCommand;
-use Opcodes\LogViewer\Events\LogFileDeleted;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Http\Livewire\FileList;
-use Opcodes\LogViewer\Http\Livewire\LogList;
+use Credizombies\LogViewer\Console\Commands\GenerateDummyLogsCommand;
+use Credizombies\LogViewer\Events\LogFileDeleted;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\Http\Livewire\FileList;
+use Credizombies\LogViewer\Http\Livewire\LogList;
 
 class LogViewerServiceProvider extends ServiceProvider
 {

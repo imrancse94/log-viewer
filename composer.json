@@ -4,7 +4,7 @@
     "description": "Fast and easy-to-use log viewer for your Laravel application",
     "keywords": [
         "arukompas",
-        "opcodesio",
+        "Credizombiesio",
         "laravel",
         "logs",
         "log viewer",
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Opcodes\\LogViewer\\": "src"
+            "Credizombies\\LogViewer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Opcodes\\LogViewer\\Tests\\": "tests"
+            "Credizombies\\LogViewer\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Opcodes\\LogViewer\\LogViewerServiceProvider"
+                "Credizombies\\LogViewer\\LogViewerServiceProvider"
             ],
             "aliases": {
-                "LogViewer": "Opcodes\\LogViewer\\Facades\\LogViewer"
+                "LogViewer": "Credizombies\\LogViewer\\Facades\\LogViewer"
             }
         }
     },

@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Credizombies\LogViewer\Http\Controllers;
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogReader;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\LogFile;
+use Credizombies\LogViewer\LogReader;
 
 class ScanFilesController
 {

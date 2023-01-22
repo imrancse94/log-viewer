@@ -29,7 +29,7 @@
       @scan-files.window="$store.fileViewer.initScanCheck('{{ route('blv.is-scan-required') }}', '{{ route('blv.scan-files') }}')"
       x-init="$nextTick(() => {
         $store.fileViewer.reset();
-        @if(\Opcodes\LogViewer\Facades\LogViewer::shouldEagerScanLogFiles()) $dispatch('scan-files'); @endif
+        @if(\Credizombies\LogViewer\Facades\LogViewer::shouldEagerScanLogFiles()) $dispatch('scan-files'); @endif
         @if(isset($selectedFile)) $store.fileViewer.foldersOpen.push('{{ $selectedFile->subFolderIdentifier() }}'); @endif
     })"
 >

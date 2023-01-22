@@ -1,7 +1,7 @@
 <?php
 
-use Opcodes\LogViewer\Facades\Cache;
-use Opcodes\LogViewer\Utils\GenerateCacheKey;
+use Credizombies\LogViewer\Facades\Cache;
+use Credizombies\LogViewer\Utils\GenerateCacheKey;
 
 it('starts off with an empty index', function () {
     $logIndex = createLogIndex();

@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Credizombies\LogViewer\Utils;
 
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
+use Credizombies\LogViewer\Exceptions\InvalidRegularExpression;
 
 class Utils
 {

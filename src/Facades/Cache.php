@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Facades;
+namespace Credizombies\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

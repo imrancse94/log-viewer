@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Credizombies\LogViewer\Utils;
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogIndex;
+use Credizombies\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\LogFile;
+use Credizombies\LogViewer\LogIndex;
 
 class GenerateCacheKey
 {

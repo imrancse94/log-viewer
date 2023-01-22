@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Credizombies\LogViewer;
 
 use Composer\InstalledVersions;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -213,6 +213,6 @@ class LogViewerService
             return 'unit-tests';
         }
 
-        return InstalledVersions::getPrettyVersion('opcodesio/log-viewer') ?? 'dev-main';
+        return InstalledVersions::getPrettyVersion('Credizombiesio/log-viewer') ?? 'dev-main';
     }
 }

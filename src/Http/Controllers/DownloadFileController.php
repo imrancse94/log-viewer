@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Credizombies\LogViewer\Http\Controllers;
 
 use Illuminate\Support\Facades\Gate;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Credizombies\LogViewer\Facades\LogViewer;
 
 class DownloadFileController
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogIndex;
+namespace Credizombies\LogViewer\Concerns\LogIndex;
 
-use Opcodes\LogViewer\Exceptions\InvalidChunkSizeException;
-use Opcodes\LogViewer\LogIndexChunk;
+use Credizombies\LogViewer\Exceptions\InvalidChunkSizeException;
+use Credizombies\LogViewer\LogIndexChunk;
 
 trait CanSplitIndexIntoChunks
 {
