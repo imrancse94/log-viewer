@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer;
+namespace creditzombies\LogViewer;
 
 class Direction
 {

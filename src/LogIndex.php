@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer;
+namespace creditzombies\LogViewer;
 
 use Carbon\CarbonInterface;
 use Illuminate\Support\Collection;

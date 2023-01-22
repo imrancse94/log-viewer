@@ -1,17 +1,17 @@
 <?php
 
-namespace Creditzombies\LogViewer;
+namespace creditzombies\LogViewer;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Creditzombies\LogViewer\Console\Commands\GenerateDummyLogsCommand;
-use Creditzombies\LogViewer\Events\LogFileDeleted;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\Http\Livewire\FileList;
-use Creditzombies\LogViewer\Http\Livewire\LogList;
+use creditzombies\LogViewer\Console\Commands\GenerateDummyLogsCommand;
+use creditzombies\LogViewer\Events\LogFileDeleted;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Http\Livewire\FileList;
+use creditzombies\LogViewer\Http\Livewire\LogList;
 
 class LogViewerServiceProvider extends ServiceProvider
 {

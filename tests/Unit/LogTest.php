@@ -1,7 +1,7 @@
 <?php
 
-use Creditzombies\LogViewer\Level;
-use Creditzombies\LogViewer\Log;
+use creditzombies\LogViewer\Level;
+use creditzombies\LogViewer\Log;
 use function PHPUnit\Framework\assertEquals;
 
 it('can understand the default Laravel log format', function () {

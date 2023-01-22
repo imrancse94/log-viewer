@@ -1,8 +1,8 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFile;
-use Creditzombies\LogViewer\Utils\GenerateCacheKey;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\Utils\GenerateCacheKey;
 
 it('can generate a cache key for a LogFile', function () {
     $file = new LogFile('test.log');

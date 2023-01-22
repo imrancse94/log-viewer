@@ -1,9 +1,9 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFile;
-use Creditzombies\LogViewer\LogFileCollection;
-use Creditzombies\LogViewer\LogFolder;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\LogFileCollection;
+use creditzombies\LogViewer\LogFolder;
 
 test('LogViewer::getFiles() returns a LogFileCollection', function () {
     expect(LogViewer::getFiles())->toBeInstanceOf(LogFileCollection::class);

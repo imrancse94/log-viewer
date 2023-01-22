@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Gate;
 use Livewire\Livewire;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFile;
-use Creditzombies\LogViewer\LogFolder;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\LogFolder;
 
 test('can delete every folder by default', function () {
     generateLogFiles([$fileName = 'laravel.log']);

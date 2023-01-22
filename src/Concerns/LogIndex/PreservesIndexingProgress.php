@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogIndex;
+namespace creditzombies\LogViewer\Concerns\LogIndex;
 
 use Carbon\CarbonImmutable;
 use Carbon\CarbonInterface;

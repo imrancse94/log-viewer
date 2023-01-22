@@ -1,9 +1,9 @@
 <?php
 
-namespace Creditzombies\LogViewer\Http\Controllers;
+namespace creditzombies\LogViewer\Http\Controllers;
 
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFile;
 
 class IsScanRequiredController
 {

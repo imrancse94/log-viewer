@@ -1,9 +1,9 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogIndex;
+namespace creditzombies\LogViewer\Concerns\LogIndex;
 
 use ArrayIterator;
-use Creditzombies\LogViewer\Direction;
+use creditzombies\LogViewer\Direction;
 
 trait CanIterateIndex
 {

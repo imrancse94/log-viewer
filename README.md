@@ -1,5 +1,5 @@
 <div align="center">
     <p>
-        <h1>Creditzombies log viewer</h1>
+        <h1>creditzombies log viewer</h1>
     </p>
 </div>

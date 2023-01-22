@@ -1,11 +1,11 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogIndex;
+namespace creditzombies\LogViewer\Concerns\LogIndex;
 
 use Carbon\CarbonInterface;
-use Creditzombies\LogViewer\Facades\Cache;
-use Creditzombies\LogViewer\LogIndexChunk;
-use Creditzombies\LogViewer\Utils\GenerateCacheKey;
+use creditzombies\LogViewer\Facades\Cache;
+use creditzombies\LogViewer\LogIndexChunk;
+use creditzombies\LogViewer\Utils\GenerateCacheKey;
 
 trait CanCacheIndex
 {

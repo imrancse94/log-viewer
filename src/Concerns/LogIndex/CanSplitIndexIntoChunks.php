@@ -1,9 +1,9 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogIndex;
+namespace creditzombies\LogViewer\Concerns\LogIndex;
 
-use Creditzombies\LogViewer\Exceptions\InvalidChunkSizeException;
-use Creditzombies\LogViewer\LogIndexChunk;
+use creditzombies\LogViewer\Exceptions\InvalidChunkSizeException;
+use creditzombies\LogViewer\LogIndexChunk;
 
 trait CanSplitIndexIntoChunks
 {

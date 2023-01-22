@@ -1,8 +1,8 @@
 <?php
 
-namespace Creditzombies\LogViewer\Http\Controllers;
+namespace creditzombies\LogViewer\Http\Controllers;
 
-use Creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Facades\LogViewer;
 
 class IndexController
 {

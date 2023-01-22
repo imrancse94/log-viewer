@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer\Utils;
+namespace creditzombies\LogViewer\Utils;
 
 class Benchmark
 {

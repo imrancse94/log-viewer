@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer\Facades;
+namespace creditzombies\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

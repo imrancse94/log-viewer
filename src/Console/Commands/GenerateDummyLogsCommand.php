@@ -1,6 +1,6 @@
 <?php
 
-namespace Creditzombies\LogViewer\Console\Commands;
+namespace creditzombies\LogViewer\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

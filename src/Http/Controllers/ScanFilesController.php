@@ -1,10 +1,10 @@
 <?php
 
-namespace Creditzombies\LogViewer\Http\Controllers;
+namespace creditzombies\LogViewer\Http\Controllers;
 
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFile;
-use Creditzombies\LogViewer\LogReader;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\LogReader;
 
 class ScanFilesController
 {

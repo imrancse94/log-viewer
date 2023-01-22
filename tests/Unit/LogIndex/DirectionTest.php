@@ -1,6 +1,6 @@
 <?php
 
-use Creditzombies\LogViewer\Direction;
+use creditzombies\LogViewer\Direction;
 
 test('direction is forward by default', function () {
     $logIndex = createLogIndex();

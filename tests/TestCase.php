@@ -1,11 +1,11 @@
 <?php
 
-namespace Creditzombies\LogViewer\Tests;
+namespace creditzombies\LogViewer\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Livewire\LivewireServiceProvider;
-use Creditzombies\LogViewer\LogViewerServiceProvider;
+use creditzombies\LogViewer\LogViewerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -19,7 +19,7 @@ class TestCase extends Orchestra
         }
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Creditzombies\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'creditzombies\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

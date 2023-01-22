@@ -1,9 +1,9 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogIndex;
+namespace creditzombies\LogViewer\Concerns\LogIndex;
 
 use Carbon\CarbonInterface;
-use Creditzombies\LogViewer\Level;
+use creditzombies\LogViewer\Level;
 
 trait CanFilterIndex
 {

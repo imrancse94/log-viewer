@@ -1,6 +1,6 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\Cache;
+use creditzombies\LogViewer\Facades\Cache;
 
 it('can skip a number of entries in the index', function () {
     $timestamp = now()->subHour()->timestamp;
@@ -63,8 +63,8 @@ it('works across multiple chunks', function () {
 
 test('get() skips unnecessary chunks by not loading them into memory', function () {
     $timestamp = now()->subHour()->timestamp;
-    $logIndex = Mockery::mock('Creditzombies\LogViewer\LogIndex[getChunk]', [
-        new \Creditzombies\LogViewer\LogFile('laravel.log', 'laravel.log'),
+    $logIndex = Mockery::mock('creditzombies\LogViewer\LogIndex[getChunk]', [
+        new \creditzombies\LogViewer\LogFile('laravel.log', 'laravel.log'),
     ])->makePartial();
     $logIndex->setMaxChunkSize(2);
     $idx1 = $logIndex->addToIndex($pos1 = 0, $timestamp, 'info');
@@ -93,8 +93,8 @@ test('get() skips unnecessary chunks by not loading them into memory', function 
 
 test('getFlatIndex() skips unnecessary chunks by not loading them into memory', function () {
     $timestamp = now()->subHour()->timestamp;
-    $logIndex = Mockery::mock('Creditzombies\LogViewer\LogIndex[getChunk]', [
-        new \Creditzombies\LogViewer\LogFile('laravel.log', 'laravel.log'),
+    $logIndex = Mockery::mock('creditzombies\LogViewer\LogIndex[getChunk]', [
+        new \creditzombies\LogViewer\LogFile('laravel.log', 'laravel.log'),
     ])->makePartial();
     $logIndex->setMaxChunkSize(2);
     $idx1 = $logIndex->addToIndex($pos1 = 0, $timestamp, 'info');

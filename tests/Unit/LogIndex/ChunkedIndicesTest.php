@@ -1,6 +1,6 @@
 <?php
 
-use Creditzombies\LogViewer\Exceptions\InvalidChunkSizeException;
+use creditzombies\LogViewer\Exceptions\InvalidChunkSizeException;
 
 it('can set the chunk size for the log index', function () {
     $logIndex = createLogIndex();

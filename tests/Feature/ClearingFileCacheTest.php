@@ -1,9 +1,9 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\Cache;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogIndex;
-use Creditzombies\LogViewer\Utils\GenerateCacheKey;
+use creditzombies\LogViewer\Facades\Cache;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogIndex;
+use creditzombies\LogViewer\Utils\GenerateCacheKey;
 use function PHPUnit\Framework\assertNotSame;
 
 beforeEach(function () {

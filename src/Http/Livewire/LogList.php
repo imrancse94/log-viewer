@@ -1,15 +1,15 @@
 <?php
 
-namespace Creditzombies\LogViewer\Http\Livewire;
+namespace creditzombies\LogViewer\Http\Livewire;
 
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Creditzombies\LogViewer\Exceptions\InvalidRegularExpression;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\Level;
-use Creditzombies\LogViewer\LogReader;
-use Creditzombies\LogViewer\PreferenceStore;
+use creditzombies\LogViewer\Exceptions\InvalidRegularExpression;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Level;
+use creditzombies\LogViewer\LogReader;
+use creditzombies\LogViewer\PreferenceStore;
 
 class LogList extends Component
 {

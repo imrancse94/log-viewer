@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Gate;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogFolder;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogFolder;
 use function Pest\Laravel\get;
 
 test('can download every folder by default', function () {

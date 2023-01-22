@@ -1,6 +1,6 @@
 <?php
 
-use Creditzombies\LogViewer\Level;
+use creditzombies\LogViewer\Level;
 
 return [
 

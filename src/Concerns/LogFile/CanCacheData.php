@@ -1,10 +1,10 @@
 <?php
 
-namespace Creditzombies\LogViewer\Concerns\LogFile;
+namespace creditzombies\LogViewer\Concerns\LogFile;
 
 use Carbon\CarbonInterface;
-use Creditzombies\LogViewer\Facades\Cache;
-use Creditzombies\LogViewer\Utils\GenerateCacheKey;
+use creditzombies\LogViewer\Facades\Cache;
+use creditzombies\LogViewer\Utils\GenerateCacheKey;
 
 trait CanCacheData
 {

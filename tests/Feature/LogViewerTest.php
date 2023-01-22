@@ -1,6 +1,6 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Facades\LogViewer;
 use function PHPUnit\Framework\assertContains;
 use function PHPUnit\Framework\assertNotContains;
 

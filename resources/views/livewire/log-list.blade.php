@@ -71,16 +71,16 @@ x-cloak
                                         @else <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><use href="#icon-info" /></svg>@endif
                                     </td>
                                     <td class="log-level truncate hidden lg:table-cell">{{ $log->level->getName() }}</td>
-                                    <td class="whitespace-nowrap text-gray-900 dark:text-gray-200">{!! \Creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->time->toDateTimeString(), $query) !!}</td>
-                                    <td class="whitespace-nowrap text-gray-500 dark:text-gray-300 dark:opacity-90 hidden lg:table-cell">{!! \Creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->environment, $query) !!}</td>
-                                    <td class="max-w-[1px] w-full truncate text-gray-500 dark:text-gray-300 dark:opacity-90">{!! \Creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->text, $query) !!}</td>
+                                    <td class="whitespace-nowrap text-gray-900 dark:text-gray-200">{!! \creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->time->toDateTimeString(), $query) !!}</td>
+                                    <td class="whitespace-nowrap text-gray-500 dark:text-gray-300 dark:opacity-90 hidden lg:table-cell">{!! \creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->environment, $query) !!}</td>
+                                    <td class="max-w-[1px] w-full truncate text-gray-500 dark:text-gray-300 dark:opacity-90">{!! \creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->text, $query) !!}</td>
                                     <td class="whitespace-nowrap text-gray-500 dark:text-gray-300 dark:opacity-90 text-xs">@include('log-viewer::partials.log-list-link-button')</td>
                                 </tr>
                                 <tr x-show="$store.logViewer.isOpen({{$index}})"><td colspan="6">
-                                        <pre class="log-stack">{!! \Creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->fullText, $query) !!}</pre>
+                                        <pre class="log-stack">{!! \creditzombies\LogViewer\Utils\Utils::highlightSearchResult($log->fullText, $query) !!}</pre>
                                         @if($log->fullTextIncomplete)
                                             <div class="py-4 px-8 text-gray-500 italic">
-                                                The contents of this log have been cut short to the first {{ \Creditzombies\LogViewer\Utils\Utils::bytesForHumans(\Creditzombies\LogViewer\Facades\LogViewer::maxLogSize()) }}.
+                                                The contents of this log have been cut short to the first {{ \creditzombies\LogViewer\Utils\Utils::bytesForHumans(\creditzombies\LogViewer\Facades\LogViewer::maxLogSize()) }}.
                                                 The full size of this log entry is <strong>{{ $log->fullTextLengthFormatted() }}</strong>
                                             </div>
                                         @endif

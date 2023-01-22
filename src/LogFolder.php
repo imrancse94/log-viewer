@@ -1,10 +1,10 @@
 <?php
 
-namespace Creditzombies\LogViewer;
+namespace creditzombies\LogViewer;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use Creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Facades\LogViewer;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFolder

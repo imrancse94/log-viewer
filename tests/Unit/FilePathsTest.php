@@ -1,7 +1,7 @@
 <?php
 
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\LogViewerService;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\LogViewerService;
 
 test('handles square brackets in the logs path', function ($folderPath) {
     // Get the original path inside which we'll create a dummy folder with square brackets

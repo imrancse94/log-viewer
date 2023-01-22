@@ -1,7 +1,7 @@
 <?php
 
-use Creditzombies\LogViewer\LogFile;
-use Creditzombies\LogViewer\LogFolder;
+use creditzombies\LogViewer\LogFile;
+use creditzombies\LogViewer\LogFolder;
 
 test('LogFolder can get the earliest timestamp of the files it contains', function () {
     $firstFile = Mockery::mock(new LogFile('folder/test.log'))

@@ -1,12 +1,12 @@
 <?php
 
-namespace Creditzombies\LogViewer;
+namespace creditzombies\LogViewer;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Str;
-use Creditzombies\LogViewer\Facades\LogViewer;
-use Creditzombies\LogViewer\Utils\Utils;
+use creditzombies\LogViewer\Facades\LogViewer;
+use creditzombies\LogViewer\Utils\Utils;
 
 class LogReader
 {
