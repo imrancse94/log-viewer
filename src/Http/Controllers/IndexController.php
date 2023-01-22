@@ -21,6 +21,7 @@ class IndexController
 
     public function __invoke()
     {
+        LogViewer::auth();
         return redirect(route('blv.index','file=laravel-'.date('Y-m-d').'.log'));
     }
 }
